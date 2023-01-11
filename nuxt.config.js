@@ -22,6 +22,11 @@ module.exports = {
      ** Customize the progress bar color
      */
     loading: { color: '#3B8070' },
+    router: {
+        scrollBehavior(to) {
+            return window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    },
     /*
      ** Build configuration
      */

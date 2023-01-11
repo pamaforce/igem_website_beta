@@ -15,7 +15,7 @@
       <div class="footlist">
         <div class="footlisttitle">Links</div>
         <h3 class="footlink">
-          <nuxt-link to="/"><a>Homepage</a></nuxt-link>
+          <a href="/">Homepage</a>
         </h3>
         <h3 class="footlink">
           <a

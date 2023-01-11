@@ -1,6 +1,6 @@
 # hash_nuxt
 
-> 宝贝听我说 官方网站 哈希碰撞科技有限公司
+> TJU iGem 2023 Wiki组大作业，并同时探索技术栈可行性，尝试使用Nuxt仿写 https://2021.igem.org/Team:USTC-Software
 
 ## Build Setup
 

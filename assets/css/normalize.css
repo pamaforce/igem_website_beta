@@ -16,6 +16,16 @@
     src: url('~static/font/T--UBrawijaya--boxicons.eot') format('embedded-opentype'), url('~static/font/T--UBrawijaya--boxicons.woff') format('woff'), url('~static/font/T--UBrawijaya--boxicons.ttf') format('truetype'), url('~static/font/T--UBrawijaya--boxicons.svg') format('svg')
 }
 
+.page-enter-active,
+.page-leave-active {
+    transition: opacity 0.5s;
+}
+
+.page-enter,
+.page-leave-active {
+    opacity: 0;
+}
+
 ::-webkit-scrollbar-track {
     background: rgba(0, 0, 0, 0.1);
     border-radius: 5px;
@@ -41,6 +51,7 @@ html {
     overflow-y: scroll;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -48,14 +59,11 @@ html {
     overflow-x: hidden;
 }
 
-:root body {
-    position: absolute;
-}
-
 body {
     width: 100vw;
     min-height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -76,10 +84,16 @@ h6 {
     margin: 0;
     padding-top: .5em;
     padding-bottom: .17em;
+    margin-bottom: 0px !important;
 }
 
 h3 {
     font-size: 132%;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
 }
 
 .bxs-chevron-down:before {
@@ -113,6 +127,7 @@ p:last-child {
 .all {
     display: flex;
     flex-direction: column;
+    padding-top: 30px;
 }
 
 .idx {
