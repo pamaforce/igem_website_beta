@@ -209,9 +209,7 @@ export default {
         .toUpperCase()}</span>`;
       setTimeout(() => {
         const point_array = this.nvList[path] || [];
-        console.log(point_array);
         if (!point_array.length) {
-          console.log(document.getElementById("nv-progress"));
           document.getElementById("nv-progress").style.opacity = "0";
         } else {
           document.getElementById("nv-progress").style.opacity = "1";
@@ -245,7 +243,7 @@ export default {
             pointEle.classList.add("nv-point-passed");
             pointEle.style.left = `${num * point_pec * 100}%`;
             pointEle.innerHTML = `<div class="nv-round"></div>
-        <div class="nv-intro"><a  href="#${id}">${id.replace(
+        <div class="nv-intro"><a  href="${path}#${id}">${id.replace(
               "-",
               " "
             )}</a></div>`;
@@ -340,7 +338,9 @@ export default {
   },
   watch: {
     $route(to) {
-      if (!to.hash) this.updatePoints();
+      if (process.client) {
+        if (!to.hash) this.updatePoints();
+      }
     },
   },
   mounted() {

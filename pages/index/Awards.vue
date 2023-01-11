@@ -24,7 +24,7 @@
         </h3>
         <div class="text">
           <div class="texttitle"><span>✔</span> Competition Deliverables</div>
-          Our Competition Deliverables consist of the <a href="/">Wiki</a>,
+          Our Competition Deliverables consist of the <a href="./">Wiki</a>,
           Presentation Video and
           <a href="https://igem.org/2021_Judging_Form?id=3958">Judging Form</a>.
           We would like briefly show you how great our project is by all these
@@ -36,14 +36,14 @@
           together and collide ideas. Besides, the success of the project can’t
           be achieved without the support of some teachers and students. You can
           read more about those people who have supported us through this
-          project <a href="/Attributions">here</a>.
+          project <a href="./Attributions">here</a>.
         </div>
         <div class="text">
           <div class="texttitle"><span>✔</span> Project Description</div>
           We were inspired by a presentation on the emerging intersection of
           machine learning and synthetic biology, Our biochemistry faculty and
           classmates solidified our confidence that our project would be
-          successful. See for more details <a href="/Description">here</a> on
+          successful. See for more details <a href="./Description">here</a> on
           how we achieved our project goals, its unique advantages, and more .
         </div>
         <div class="text">
@@ -57,7 +57,7 @@
           to use to make more students more aware of synthetic biology and
           machine learning. You can see more detailed information about our
           contribution for iGEM community and synthetic biology
-          <a href="/Contribution">here</a>.
+          <a href="./Contribution">here</a>.
         </div>
 
         <h3>
@@ -73,7 +73,7 @@
           better at our project. Eventually we can provide tools to predict
           protein properties and more importantly can contribute to education in
           synthetic biology and machine learning.
-          <a href="/Engineering">Here</a> are the details about our engineering
+          <a href="./Engineering">Here</a> are the details about our engineering
           progress.
         </div>
         <div class="text">
@@ -85,7 +85,7 @@
           at the CCiC conference, we met constantly with the SJTU-Software team
           and exchanged ideas about synthetic biology, machine learning, and
           other areas. For more details, click
-          <a href="/Collaborations">here</a>.
+          <a href="./Collaborations">here</a>.
         </div>
         <div class="text">
           <div class="texttitle"><span>✔</span> Human Practices</div>
@@ -95,7 +95,8 @@
           their input on our project. We participated in the CCiC 2021 and
           exchanged with other university teams. We also collaborate with
           science museums and schools to organize large scale science events.
-          Click <a href="/Human_Practices">Human Practices</a> for more details.
+          Click <a href="./Human_Practices">Human Practices</a> for more
+          details.
         </div>
         <div class="text">
           <div class="texttitle"><span>✔</span> Proposed Implementation</div>
@@ -103,7 +104,7 @@
           protein properties or who are interested in machine learning. With our
           platform they can retrieve faster or enter the field of machine
           learning faster. In addition, we have detailed the possible risks and
-          our response in this <a href="/Implementation">link</a>.
+          our response in this <a href="./Implementation">link</a>.
         </div>
 
         <h3>
@@ -122,7 +123,7 @@
           At the same time, we collected feedback from users on the beta version
           and made more complete modifications and adjustments to the platform
           to get the current version. We have documented our process and click
-          <a href="/Human_Practices">Human Practices</a> for more details.
+          <a href="./Human_Practices">Human Practices</a> for more details.
         </div>
         <div class="text">
           <div class="texttitle"><span>✔</span> Project Modelling</div>
@@ -140,7 +141,7 @@
           cross-validations and have obtained notable results. We had to ensure
           that the included software packages have a very high accuracy to
           facilitate the synthetic biologists’ use. Visit the
-          <a href="/Proof_Of_Concept">link</a> for details.
+          <a href="./Proof_Of_Concept">link</a> for details.
         </div>
         <div class="text">
           <div class="texttitle"><span>✔</span> Partnership</div>
@@ -152,7 +153,7 @@
           to accommodate each other's content. So we kept communicating with
           them and eventually made their package available to run on our
           platform to deepen the understanding of the relationship between RNA
-          and proteins. You can know details <a href="/Partnership">here</a>.
+          and proteins. You can know details <a href="./Partnership">here</a>.
         </div>
         <div class="text">
           <div class="texttitle">
@@ -166,14 +167,14 @@
           make the education more effective. We have conducted many educational
           activities using educational version and brochures, and they all have
           achieved good results. You can visit this
-          <a href="/Education">link</a> to know details about our educational
+          <a href="./Education">link</a> to know details about our educational
           work.<br /><br />
           We had a lot of communication with the professional teachers at our
           school to make sure that our program was helpful for synthetic
           biology. We also talked to the directors of our educational activities
           to make sure that our educational content and approach was effective
           for the students.
-          <a href="/Communication">Here</a> are the details about our work on
+          <a href="./Communication">Here</a> are the details about our work on
           Communication.
         </div>
       </div>

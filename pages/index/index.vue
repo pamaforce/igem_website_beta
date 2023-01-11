@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="all">
+    <div class="all index-all">
       <div class="idx">
         <div class="backgroundcolor"></div>
         <img
@@ -242,6 +242,9 @@ export default {
 </script>
 
 <style scope>
+.index-all {
+  padding-top: 0 !important;
+}
 .pushable {
   position: relative;
   border: none;

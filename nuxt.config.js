@@ -5,7 +5,7 @@ module.exports = {
     head: {
         title: '[重制版] Team:USTC-Software',
         script: [
-            { src: '/rem.js', type: 'text/javascript', charset: 'utf-8' }
+            { src: './rem.js', type: 'text/javascript', charset: 'utf-8' }
         ],
         meta: [
             { charset: 'utf-8' },
@@ -14,7 +14,7 @@ module.exports = {
             { hid: 'keywords', name: 'keywords', content: 'Wiki' }
         ],
         link: [
-            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+            { rel: 'icon', type: 'image/x-icon', href: './favicon.ico' }
         ]
     },
     css: ['~assets/css/normalize.css'],
@@ -23,6 +23,7 @@ module.exports = {
      */
     loading: { color: '#3B8070' },
     router: {
+        base: '/wiki/',
         scrollBehavior(to) {
             return window.scrollTo({ top: 0, behavior: 'smooth' });
         }

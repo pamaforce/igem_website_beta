@@ -1,6 +1,8 @@
 <template>
   <div class="app" ref="app">
-    <app-header />
+    <client-only>
+      <app-header />
+    </client-only>
     <nuxt-child keep-alive></nuxt-child>
     <div class="cat-log-up">
       <img
