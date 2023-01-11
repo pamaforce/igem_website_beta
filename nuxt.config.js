@@ -9,7 +9,7 @@ module.exports = {
         ],
         meta: [
             { charset: 'utf-8' },
-            { name: 'viewport', content: 'initial-scale=1,user-scalable=no' },
+            { name: 'viewport', content: 'initial-scale=1' },
             { hid: 'description', name: 'description', content: '[重制版]Team:USTC-Software' },
             { hid: 'keywords', name: 'keywords', content: 'Wiki' }
         ],

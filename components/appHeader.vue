@@ -201,12 +201,9 @@ export default {
   methods: {
     updatePoints() {
       let path = this.$route.path;
-      document.getElementById(
-        "nav-hidden"
-      ).innerHTML = `<span class="orange">${path
-        .replace("/", "")
-        .replace("_", "-")
-        .toUpperCase()}</span>`;
+      document.getElementById("nav-hidden").innerHTML = `<span class="orange">${
+        path.replace("/", "").replace("_", "-").toUpperCase() || "USTC-SOFTWARE"
+      }</span>`;
       setTimeout(() => {
         const point_array = this.nvList[path] || [];
         if (!point_array.length) {
@@ -243,7 +240,7 @@ export default {
             pointEle.classList.add("nv-point-passed");
             pointEle.style.left = `${num * point_pec * 100}%`;
             pointEle.innerHTML = `<div class="nv-round"></div>
-        <div class="nv-intro"><a  href="${path}#${id}">${id.replace(
+        <div class="nv-intro"><a  href="/wiki${path}#${id}">${id.replace(
               "-",
               " "
             )}</a></div>`;
